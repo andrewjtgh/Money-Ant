@@ -1,0 +1,28 @@
+<project name="Ant" default="test" basedir=".">
+	<property environment="e" />
+	<target name="compile" depends="init">
+		<javac destdir="classes" deprecation="on">
+			<src>
+				<pathelement location="src" />
+				<pathelement location="test" />
+			</src>
+			<classpath>
+				<pathelement location="classes" />
+				<pathelement location="${basedir}/junit.jar" />
+			</classpath>
+		</javac>
+	</target>
+	<target name="init">
+		<mkdir dir="classes" />
+	</target>
+	<target name="test" depends="compile">
+		<junit printsummary="yes">
+			<formatter type="plain" />
+			<test name="ant.AllTests" />
+			<classpath>
+				<pathelement location="classes" />
+				<pathelement location="${basedir}/junit.jar" />
+			</classpath>
+		</junit>
+	</target>
+</project>
