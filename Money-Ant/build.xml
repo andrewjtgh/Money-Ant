@@ -18,7 +18,7 @@
 	<target name="test" depends="compile">
 		<junit printsummary="yes">
 			<formatter type="plain" />
-			<test name="ant.AllTests" />
+			<test name="ant.MoneyTest" />
 			<classpath>
 				<pathelement location="classes" />
 				<pathelement location="lib/junit-4.11.jar" />
