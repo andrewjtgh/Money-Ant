@@ -1,4 +1,5 @@
 package ant;
+
 public class Money {
 	private int fAmount;
 	private String fCurrency;

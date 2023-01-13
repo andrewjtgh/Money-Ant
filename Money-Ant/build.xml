@@ -22,6 +22,7 @@
 			<classpath>
 				<pathelement location="classes" />
 				<pathelement location="lib/junit-4.11.jar" />
+				<pathelement location="lib/hamcrest-all-1.3.jar" />
 			</classpath>
 		</junit>
 	</target>
