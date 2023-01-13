@@ -1,14 +1,14 @@
 <project name="Ant" default="test" basedir=".">
 	<property environment="e" />
 	<target name="compile" depends="init">
-		<javac destdir="classes" deprecation="on">
+		<javac includeantruntime="false" destdir="classes" deprecation="on">
 			<src>
 				<pathelement location="src" />
 				<pathelement location="test" />
 			</src>
 			<classpath>
 				<pathelement location="classes" />
-				<pathelement location="${basedir}/junit.jar" />
+				<pathelement location="lib/junit-4.11.jar" />
 			</classpath>
 		</javac>
 	</target>
@@ -21,7 +21,7 @@
 			<test name="ant.AllTests" />
 			<classpath>
 				<pathelement location="classes" />
-				<pathelement location="${basedir}/junit.jar" />
+				<pathelement location="lib/junit-4.11.jar" />
 			</classpath>
 		</junit>
 	</target>
