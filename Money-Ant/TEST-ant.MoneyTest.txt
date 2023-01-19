@@ -1,5 +1,5 @@
 Testsuite: ant.MoneyTest
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 sec
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
 
-Testcase: adding_same_currency_return_amount_added_up took 0.01 sec
+Testcase: adding_same_currency_return_amount_added_up took 0.001 sec
 Testcase: same_currency_n_amount_is_equal took 0 sec

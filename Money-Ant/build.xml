@@ -1,4 +1,4 @@
-<project name="Ant" default="test" basedir=".">
+<project name="Ant" default="test" basedir="">
 	<property environment="e" />
 	<target name="compile" depends="init">
 		<javac includeantruntime="false" destdir="classes" deprecation="on">
