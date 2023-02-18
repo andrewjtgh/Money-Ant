@@ -17,13 +17,14 @@
 	</target>
 	<target name="test" depends="compile">
 		<junit printsummary="yes">
-			<formatter type="plain" />
+			<formatter type="xml" />
 			<test name="ant.MoneyTest" />
 			<classpath>
 				<pathelement location="classes" />
 				<pathelement location="lib/junit-4.11.jar" />
 				<pathelement location="lib/hamcrest-all-1.3.jar" />
 			</classpath>
+
 		</junit>
 	</target>
 </project>
