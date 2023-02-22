@@ -1,5 +1,8 @@
 <project name="Ant" default="test" basedir="">
 	<property environment="e" />
+	<target name="clean">
+		<delete dir="classes" failonerror="false" />
+	</target>
 	<target name="compile" depends="init">
 		<javac includeantruntime="false" destdir="classes" deprecation="on">
 			<src>
@@ -12,7 +15,7 @@
 			</classpath>
 		</javac>
 	</target>
-	<target name="init">
+	<target name="init" depends="clean">
 		<mkdir dir="classes" />
 	</target>
 	<target name="test" depends="compile">

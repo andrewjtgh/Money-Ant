@@ -1,52 +1,57 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Andrews-Air-M2" name="ant.MoneyTest" skipped="0" tests="2" time="0.029" timestamp="2023-02-22T15:14:51">
+<testsuite errors="0" failures="0" hostname="Andrews-Air-M2" name="ant.MoneyTest" skipped="0" tests="2" time="0.087" timestamp="2023-02-22T15:24:54">
   <properties>
+    <property name="gopherProxySet" value="false" />
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit" />
     <property name="ant.library.dir" value="/Users/andrewtan/.p2/pool/plugins/org.apache.ant_1.10.12.v20211102-1452/lib" />
-    <property name="java.specification.version" value="17" />
+    <property name="java.specification.version" value="11" />
     <property name="ant.project.name" value="Ant" />
+    <property name="sun.cpu.isalist" value="" />
     <property name="e.XPC_FLAGS" value="0x0" />
     <property name="sun.jnu.encoding" value="UTF-8" />
     <property name="e.PATH" value="/usr/bin:/bin:/usr/sbin:/sbin" />
     <property name="java.class.path" value="/Users/andrewtan/.p2/pool/plugins/org.apache.ant_1.10.12.v20211102-1452/lib/ant-antlr.jar:/Users/andrewtan/.p2/pool/plugins/org.apache.ant_1.10.12.v20211102-1452/lib/ant-apache-bcel.jar:/Users/andrewtan/.p2/pool/plugins/org.apache.ant_1.10.12.v20211102-1452/lib/ant-apache-bsf.jar:/Users/andrewtan/.p2/pool/plugins/org.apache.ant_1.10.12.v20211102-1452/lib/ant-apache-log4j.jar:/Users/andrewtan/.p2/pool/plugins/org.apache.ant_1.10.12.v20211102-1452/lib/ant-apache-oro.jar:/Users/andrewtan/.p2/pool/plugins/org.apache.ant_1.10.12.v20211102-1452/lib/ant-apache-regexp.jar:/Users/andrewtan/.p2/pool/plugins/org.apache.ant_1.10.12.v20211102-1452/lib/ant-apache-resolver.jar:/Users/andrewtan/.p2/pool/plugins/org.apache.ant_1.10.12.v20211102-1452/lib/ant-apache-xalan2.jar:/Users/andrewtan/.p2/pool/plugins/org.apache.ant_1.10.12.v20211102-1452/lib/ant-commons-logging.jar:/Users/andrewtan/.p2/pool/plugins/org.apache.ant_1.10.12.v20211102-1452/lib/ant-commons-net.jar:/Users/andrewtan/.p2/pool/plugins/org.apache.ant_1.10.12.v20211102-1452/lib/ant-imageio.jar:/Users/andrewtan/.p2/pool/plugins/org.apache.ant_1.10.12.v20211102-1452/lib/ant-jai.jar:/Users/andrewtan/.p2/pool/plugins/org.apache.ant_1.10.12.v20211102-1452/lib/ant-javamail.jar:/Users/andrewtan/.p2/pool/plugins/org.apache.ant_1.10.12.v20211102-1452/lib/ant-jdepend.jar:/Users/andrewtan/.p2/pool/plugins/org.apache.ant_1.10.12.v20211102-1452/lib/ant-jmf.jar:/Users/andrewtan/.p2/pool/plugins/org.apache.ant_1.10.12.v20211102-1452/lib/ant-jsch.jar:/Users/andrewtan/.p2/pool/plugins/org.apache.ant_1.10.12.v20211102-1452/lib/ant-junit.jar:/Users/andrewtan/.p2/pool/plugins/org.apache.ant_1.10.12.v20211102-1452/lib/ant-junit4.jar:/Users/andrewtan/.p2/pool/plugins/org.apache.ant_1.10.12.v20211102-1452/lib/ant-junitlauncher.jar:/Users/andrewtan/.p2/pool/plugins/org.apache.ant_1.10.12.v20211102-1452/lib/ant-launcher.jar:/Users/andrewtan/.p2/pool/plugins/org.apache.ant_1.10.12.v20211102-1452/lib/ant-netrexx.jar:/Users/andrewtan/.p2/pool/plugins/org.apache.ant_1.10.12.v20211102-1452/lib/ant-swing.jar:/Users/andrewtan/.p2/pool/plugins/org.apache.ant_1.10.12.v20211102-1452/lib/ant-testutil.jar:/Users/andrewtan/.p2/pool/plugins/org.apache.ant_1.10.12.v20211102-1452/lib/ant-xz.jar:/Users/andrewtan/.p2/pool/plugins/org.apache.ant_1.10.12.v20211102-1452/lib/ant.jar:/Users/andrewtan/eclipse-workspace/Ant/junit.jar:/Applications/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/965/0/.cp/lib/antdebug.jar:/Applications/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/965/0/.cp/lib/remote.jar:/Applications/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/966/0/.cp/lib/remoteAnt.jar:/Users/andrewtan/.p2/pool/plugins/org.eclipse.swt.cocoa.macosx.aarch64_3.122.0.v20221123-2302.jar" />
     <property name="e.ANT_HOME" value="/Users/andrewtan/.p2/pool/plugins/org.apache.ant_1.10.12.v20211102-1452" />
-    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.vm.vendor" value="OpenLogic" />
     <property name="e.LOGNAME" value="andrewtan" />
     <property name="sun.arch.data.model" value="64" />
-    <property name="java.vendor.url" value="https://java.oracle.com/" />
+    <property name="java.vendor.url" value="https://openlogic.com/" />
+    <property name="user.timezone" value="" />
+    <property name="java.vm.specification.version" value="11" />
     <property name="os.name" value="Mac OS X" />
-    <property name="java.vm.specification.version" value="17" />
     <property name="e.__CFBundleIdentifier" value="epp.package.java" />
     <property name="e.XPC_SERVICE_NAME" value="application.epp.package.java.2585420.2587341" />
     <property name="e.SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.VlZ5i8f4CJ/Listeners" />
-    <property name="sun.java.launcher" value="SUN_STANDARD" />
     <property name="user.country" value="SG" />
-    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/lib" />
-    <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1677078891158 -Declipse.connect.port=53157 -Dbasedir=/Users/andrewtan/eclipse-workspace/Money-Ant -Dbasedir=/Users/andrewtan/git/Money-Ant/Money-Ant -Dant.home=/Users/andrewtan/.p2/pool/plugins/org.apache.ant_1.10.12.v20211102-1452 -Djava.security.manager=allow -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile /Users/andrewtan/git/Money-Ant/Money-Ant/build.xml init compile test" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/openlogic-openjdk-11.jdk/Contents/Home/lib" />
+    <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1677079492640 -Declipse.connect.port=53164 -Dbasedir=/Users/andrewtan/eclipse-workspace/Money-Ant -Dbasedir=/Users/andrewtan/git/Money-Ant/Money-Ant -Dant.home=/Users/andrewtan/.p2/pool/plugins/org.apache.ant_1.10.12.v20211102-1452 -Djava.security.manager=allow -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile /Users/andrewtan/git/Money-Ant/Money-Ant/build.xml init compile test" />
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
     <property name="jdk.debug" value="release" />
     <property name="e.COMMAND_MODE" value="unix2003" />
     <property name="sun.cpu.endian" value="little" />
+    <property name="e.JAVA_MAIN_CLASS_63208" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner" />
     <property name="user.home" value="/Users/andrewtan" />
     <property name="user.language" value="en" />
     <property name="java.specification.vendor" value="Oracle Corporation" />
-    <property name="java.version.date" value="2022-01-18" />
-    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home" />
+    <property name="java.version.date" value="2023-01-17" />
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/openlogic-openjdk-11.jdk/Contents/Home" />
     <property name="file.separator" value="/" />
     <property name="basedir" value="/Users/andrewtan/git/Money-Ant/Money-Ant" />
     <property name="java.vm.compressedOopsMode" value="Zero based" />
     <property name="line.separator" value="&#xa;" />
-    <property name="ant.java.version" value="17" />
-    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="ant.java.version" value="11" />
     <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
     <property name="e.APP_ICON_61480" value="../Resources/Eclipse.icns" />
-    <property name="e.JAVA_MAIN_CLASS_62563" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner" />
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment" />
     <property name="e.USER" value="andrewtan" />
     <property name="ant.file.type.Ant" value="file" />
     <property name="e.SHELL" value="/bin/zsh" />
     <property name="ant.file.Ant" value="/Users/andrewtan/git/Money-Ant/Money-Ant/build.xml" />
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
-    <property name="java.runtime.version" value="17.0.2+8-86" />
+    <property name="java.runtime.version" value="11.0.18+10-adhoc.admin.jdk11u" />
     <property name="java.security.manager" value="allow" />
     <property name="user.name" value="andrewtan" />
     <property name="ant.file" value="/Users/andrewtan/git/Money-Ant/Money-Ant/build.xml" />
@@ -59,28 +64,30 @@
     <property name="file.encoding" value="UTF-8" />
     <property name="ant.project.invoked-targets" value="init,compile,test" />
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="java.vendor.version" value="OpenLogic-OpenJDK" />
     <property name="e.JAVA_STARTED_ON_FIRST_THREAD_61480" value="1" />
     <property name="ant.core.lib" value="/Users/andrewtan/.p2/pool/plugins/org.apache.ant_1.10.12.v20211102-1452/lib/ant.jar" />
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/" />
+    <property name="java.vendor.url.bug" value="https://techsupport.roguewave.com/" />
     <property name="java.io.tmpdir" value="/var/folders/p6/qbwkmh897sgfzt1qdl7bwpnc0000gn/T/" />
-    <property name="java.version" value="17.0.2" />
+    <property name="e.JAVA_STARTED_ON_FIRST_THREAD_63208" value="1" />
+    <property name="java.version" value="11.0.18" />
     <property name="user.dir" value="/Users/andrewtan/git/Money-Ant/Money-Ant" />
-    <property name="os.arch" value="aarch64" />
+    <property name="os.arch" value="x86_64" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob" />
     <property name="ant.home" value="/Users/andrewtan/.p2/pool/plugins/org.apache.ant_1.10.12.v20211102-1452" />
-    <property name="native.encoding" value="UTF-8" />
+    <property name="sun.os.patch.level" value="unknown" />
     <property name="ant.version" value="Apache Ant(TM) version 1.10.12 compiled on October 13 2021" />
     <property name="java.library.path" value="/Users/andrewtan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.:/Applications/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/1460/0/.cp" />
-    <property name="java.vendor" value="Oracle Corporation" />
-    <property name="java.vm.info" value="mixed mode, sharing" />
-    <property name="java.vm.version" value="17.0.2+8-86" />
-    <property name="e.JAVA_STARTED_ON_FIRST_THREAD_62563" value="1" />
+    <property name="java.vendor" value="OpenLogic" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="java.vm.version" value="11.0.18+10-adhoc.admin.jdk11u" />
     <property name="sun.io.unicode.encoding" value="UnicodeBig" />
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
-    <property name="java.class.version" value="61.0" />
+    <property name="java.class.version" value="55.0" />
     <property name="ant.project.default-target" value="test" />
   </properties>
-  <testcase classname="ant.MoneyTest" name="adding_same_currency_return_amount_added_up" time="0.002" />
+  <testcase classname="ant.MoneyTest" name="adding_same_currency_return_amount_added_up" time="0.017" />
   <testcase classname="ant.MoneyTest" name="same_currency_n_amount_is_equal" time="0.0" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
